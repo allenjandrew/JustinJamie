@@ -1,8 +1,8 @@
 # CSE 310 - Sprint Time Log
 
-Name:
+Name: Andrew Allen
 
-Sprint #:
+Sprint #: 5
 
 ## Instructions
 
