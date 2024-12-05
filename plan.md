@@ -1,0 +1,80 @@
+# Ideas
+
+- 2 person race to save the princess
+  - WASD, arrow keys
+  - 3 person - IJKL?
+- Game area keeps moving
+  - Blocks or shapes that keep moving towards the left
+  - A player near the right edge will make the game move faster
+- Enemies - Justin
+  - Walk around on blocks
+  - Shoot projectiles? Throwing wrenches "You Bum"
+  - Enemy types:
+    - Walking
+    - Shooting
+    - Exploding
+  - Each enemy deals different damage
+- Powerups?
+  - Higher jumps
+  - Invincibility
+  - Extra hearts
+  - Upside down
+  - Speed boost
+- Die if you:
+  - Fall off the screen
+  - Get pushed off the screen
+  - Collide with enemy
+  - Get shot by enemy
+- Players:
+  - Andrew
+  - Tucker
+  - Kaleb
+  - Start with 5 hearts
+  - Only Andrew can kiss the princess (Jamie)
+- Game over
+  - Justin saying "you bum" to Jamie
+  - Screen shake?
+
+# Plan
+
+- Player:
+  - Movement:
+    - Move left - A
+    - Move right - D
+    - Jump - W
+    - On key press, on key release
+  - Die if:
+    - right < 0
+    - top < 0
+    - hearts < 0
+  - Spawn locations
+- Sprite lists:
+  - Enemies
+  - Blocks
+  - All
+- All sprites:
+  - Remove if right < 0
+- Blocks:
+  - Arcade shapes or sprites?
+  - Random speed to the left
+  - Chance to spawn enemy on them
+- Enemies:
+  - Walking speed, adjusted for block
+  - Left/right bounds to walk (on block)
+  - Character detection??
+  - Shooting speed & direction
+  - Detonation wait time & radius
+- Hearts:
+  - Shown at top of screen; don't move
+- Choose # of players
+  - How to do this? Game starts paused?
+- Constants:
+  - Screen width: 1000
+  - Screen height: 600
+  - Screen title: "Justin & Jamie"
+  - Game speed: 20
+  - Game paused: bool
+  - Game sped up: bool
+- Collisions:
+  - Player and enemy: damage
+  - Player and block: handled by physics engine
