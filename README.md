@@ -47,6 +47,7 @@ I found these websites useful in developing this software:
 The following items I plan to fix, improve, and/or add to this project in the future:
 
 - [ ] Fix dead players able to speed up game by moving right
+- [ ] Game lags at around distance 2000; need to remove old sprites (platforms)
 - [ ] Add enemies; some move, some shoot, some explode; different damage levels
 - [ ] Initial game speed up (so it'll start out slower)
 - [ ] Speed scales with distance traveled
