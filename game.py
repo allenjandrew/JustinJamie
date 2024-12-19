@@ -4,6 +4,7 @@
 # Imports
 import arcade
 import random
+import physics_engine as pe
 
 # import arcade.gui
 
@@ -313,6 +314,8 @@ class GameView(arcade.View):
         if key == arcade.key.SPACE or key == arcade.key.P:
             self.is_paused = not self.is_paused
             self.unschedule_all() if self.is_paused else self.reschedule_all()
+            # if self.is_paused:
+            #     print(f"num platforms: {len(self.scene[BLOCK_SPRITE_LIST])}")
 
         for i in range(self.num_of_players):
             self.check_player_movement(key, i)
